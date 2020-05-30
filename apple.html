@@ -1,0 +1,818 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>apple</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    word-wrap: break-word;
+    word-break: keep-all;
+    font-family: tahoma;
+    font-size: 13px;
+}
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+.center {
+    text-align: center;
+}
+.menu {
+    width: 100%;
+    height: 40px;
+    background-color: #191919;
+    clear: both;
+    float: right;
+}
+.menu ul {
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+.menu li {
+    float: right;
+    list-style: none;
+    width: 14%;
+    text-align: center;
+    height: 100%;
+}
+.menu a {
+    color: #EEEEEE;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+.box {
+    width: 100%;
+    height: 180px;
+    float: left;
+}
+.box .icon {
+    width: 12%;
+    height: 180px;
+    box-sizing: border-box;
+    float: left;
+}
+.box .icon img {
+    width: 60px;
+    height: 60px;
+    margin-top: 40px;
+    float: right;
+}
+.box1 {
+    width: 100%;
+    height: 700px;
+    background-image: url(image/iphone_x_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FAFAFA;
+    float: left;
+}
+.header {
+    text-align: center;
+    font-size: 44px;
+    color: black;
+    margin-top: 70px;
+}
+.header2 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-top: 5px;
+}
+.box3 {
+    width: 100%;
+    height: 500px;
+    float: right;
+    background-color: #b10e23;
+    background-image: url(image/iphone8_red_small_2x.jpg);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.box3 .text {
+    font-size: 55px;
+    margin-top: 230px;
+    color: white;
+    text-align: center;
+    margin-left: 300px;
+}
+.box4 {
+    width: 60%;
+    height: 600px;
+    float: left;
+    background-image: url(image/compare_small_2x.jpg);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    background-color: #FBFBFB;
+}
+.box5 {
+    width: 40%;
+    height: 600px;
+    margin-top: 50px;
+    float: right;
+    background-color: #FBFBFB;
+}
+.text1 {
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin-top: 230px;
+    margin-right: 100px
+}
+.text2 {
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin-left: 30px;
+}
+.box6 {
+    background-image: url(image/ar_small_2x.jpg);
+    width: 50%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    float: left;
+}
+.box7 {
+    width: 50%;
+    height: 800px;
+    background-color: #DDC8C4;
+    float: right;
+}
+.text3 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 380px;
+}
+.text4 {
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+.text5 {
+    font-size: 2opx;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+.box8 {
+    width: 50%;
+    float: right;
+    background-image: url(image/ios_small_2x.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    background-color: #FAFAFA;
+}
+.box9 {
+    float: left;
+    width: 50%;
+    height: 700px;
+    margin-top: 50px;
+    background-color: #FAFAFA;
+}
+.icon2 p {
+    text-align: center;
+    margin-top: 150px;
+    ;
+}
+.text6 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+.text7 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+}
+.box10 {
+    width: 49%;
+    float: left;
+    height: 1200px;
+    background-image: url(image/iphone_iup_tile_small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #FAFAFA;
+    margin-top: 30px;
+}
+.box11 {
+    width: 49%;
+    float: right;
+    height: 1200px;
+    background-image: url(image/iphone_tradeup_avail_alt_small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #FAFAFA;
+    margin-top: 30px;
+}
+.text8 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+}
+.text9 {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+.text10 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+.text11 {
+    font-size: 50px;
+    margin-top: 80px;
+    text-align: center;
+    color: black;
+}
+.text12 {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+.text13 {
+    font-size: 18px;
+    margin-top: 40px;
+    color: black;
+    text-align: center;
+}
+.text14 {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+.box12 {
+    width: 48%;
+    height: 1500px;
+    background-image: url(image/why_switch_tile_new_small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    float: left;
+}
+.box12 .text {
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    margin-top: 140px;
+}
+.box12 .text1 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.box12 .text2 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 200px;
+    color: white;
+    margin-right: 25px;
+}
+.box12 .text3 {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 10px;
+    color: white;
+}
+.box12 .text4 {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 10px;
+    color: white;
+}
+.box13 {
+    width: 48%;
+    height: 1500px;
+    float: right;
+    background-image: url(image/guided_tour_small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.box13 .text {
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    margin-top: 140px;
+    margin-right: 70px;
+}
+.box13 .text1 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.box13 .text2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 200px;
+}
+.box13 .text3 {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 10px;
+    color: white;
+}
+.box13 .text4 {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 10px;
+    color: white;
+}
+.box14 {
+    width: 48%;
+    height: 1000px;
+    float: left;
+    background-image: url(image/airpods_small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    background-color: #FAFAFA;
+}
+.box14 .text {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    background-color: #FAFAFA;
+    margin-top: 65px;
+}
+.text15 {
+    text-align: center;
+    font-size: 55px;
+    color: black;
+    background-color: #FAFAFA;
+}
+.text16 {
+    text-align: center;
+    font-size: 55px;
+    color: black;
+    background-color: #FAFAFA;
+}
+.box15 {
+    width: 48%;
+    height: 1000px;
+    float: right;
+    background-image: url(image/accessories_small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    background-color: #FAFAFA;
+}
+.box15 .text {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin-top: 65px;
+}
+.box15 .text2 {
+    text-align: center;
+    font-size: 55px;
+    color: black;
+}
+.box15 .text4 {
+    text-align: center;
+    font-size: 55px;
+    color: black;
+    margin-bottom: 10px;
+}
+.box16 {
+    width: 48%;
+    height: 1000px;
+    float: left;
+    background-image: url(image/selfies_small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 50px;
+    background-color: black;
+}
+.box16 .text {
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    background-color: #000;
+    margin-top: 65px;
+}
+.box17 {
+    width: 48%;
+    height: 1000px;
+    float: right;
+    background-image: url(image/howtoshoot_tile_small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    background-color: #FAFAFA;
+    background-size: cover;
+}
+.box17 .text {
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    margin-top: 65px;
+}
+.box17 .text2 {
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+.box18 {
+    width: 48%;
+    height: 900px;
+    float: left;
+    background-image: url(image/apple_pay_small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 50px;
+    background-color: #fafafa;
+    background-size: contain;
+}
+.box18 .text {
+    text-align: center;
+    font-size: 55px;
+    color: black;
+    margin-top: 120px;
+}
+.box18 .text2 {
+    text-align: center;
+    font-size: 55px;
+    color: black;
+}
+.box18 .text4 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.box18 .text6 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.text17 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.box18 .text12 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.box19 {
+    width: 48%;
+    height: 900px;
+    float: right;
+    background-image: url(image/promo_tile_icloud_small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 50px;
+    background-color: #FAFAFA;
+    background-size: contain;
+}
+.box19 .text {
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    margin-top: 120px;
+}
+.box19 .text2 {
+    text-align: center;
+    font-size: 45px;
+    color: black;
+}
+.box19 .text4 {
+    text-align: center;
+    font-size: 45px;
+    color: black;
+}
+.box19 .text6 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    margin-top: 10px;
+}
+.box19 .text12 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.box20 {
+    width: 100%;
+    height: 600px;
+    background-image: url(image/business_addit_small_2x.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 50px;
+}
+.box20 .text {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 250px;
+    margin-right: 600px;
+}
+.box21 {
+    width: 100%;
+    background-color: #fafafa;
+    height: 650px;
+    float: left;
+    margin-top: 35px;
+}
+.box21 .desc {
+    text-align: center;
+    font-size: 11px;
+    color: #898989;
+    margin-top: 5px;
+}
+.box21 .desc1 {
+    text-align: left;
+    font-size: 11px;
+    margin-left: 270px;
+    margin-top: 5px;
+    color: #898989;
+}
+.box22 {
+    width: 100%;
+    height: 500px;
+    float: left;
+    background-color: #fafafa;
+    margin-top: 30px;
+}
+.box22 .box23 {
+    float: left;
+    width: 14.28%;
+    height: 500px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.box23 .desc {
+    text-align: left;
+    font-size: 11px;
+    color: black;
+    margin-top: 60px;
+}
+.desc2 {
+    text-align: left;
+    font-size: 11px;
+    margin-top: 17px;
+    color: #898989;
+}
+</style>
+</head>
+
+<body>
+<div class="menu">
+  <div class="container">
+    <ul>
+      <li><a href="#">Suppurt</a></li>
+      <li><a href="#">Music</a></li>
+      <li><a href="#">Tv</a></li>
+      <li><a href="#">Watch</a></li>
+      <li><a href="#">iPhone</a></li>
+      <li><a href="#">iPad</a></li>
+      <li><a href="#">Mac</a></li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="box">
+    <div class="icon">
+      <p class="center"><a href=""><img src="image/icons8-apple-filled-50.png" alt=""></a></p>
+    </div>
+    <div class="icon">
+      <p class="center"><a href=""><img src="image/Settings_2x.png" alt=""></a></p>
+    </div>
+    <div class="icon">
+      <p class="center"><a href=""><img src="image/Clock_2x.png" alt=""></a></p>
+    </div>
+    <div class="icon">
+      <p class="center"><a href=""><img src="image/Mail_2x.png" alt=""></a></p>
+    </div>
+    <div class="icon">
+      <p class="center"><a href=""><img src="image/Maps_2x.png" alt=""></a></p>
+    </div>
+    <div class="icon">
+      <p class="center"><a href=""><img src="image/Phone_2x.png" alt=""></a></p>
+    </div>
+    <div class="icon">
+      <p class="center"><a href=""><img src="image/Podcast_2x.png" alt=""></a></p>
+    </div>
+    <div class="icon">
+      <p class="center"><a href=""><img src="image/Photos_2x.png" alt=""></a></p>
+    </div>
+  </div>
+</div>
+<div class="box1">
+  <div class="header">iPhone X</div>
+  <div class="header2">Say hello to the future.</div>
+</div>
+<div class="box3">
+  <div class="text">iPhone 8(PRODUCT)</div>
+</div>
+<div class="container">
+  <div class="box4"></div>
+  <div class="box5">
+    <div class="text1">Compare</div>
+    <div class="text2">iPhone Models</div>
+  </div>
+</div>
+<div class="container">
+  <div class="box6"></div>
+  <div class="box7">
+    <div class="text3">Augmented Reality</div>
+    <div class="text4">A new world all around you.</div>
+    <div class="text5">Transform the way you work, learn, play, and connect with the </div>
+    <div class="text5">world around you. iPhone is already built for the next generation </div>
+    <div class="text5">of AR apps.</div>
+  </div>
+</div>
+<div class="container">
+  <div class="box8"></div>
+  <div class="box9">
+    <div class="icon2">
+      <p><img src="image/icon_ios_small_2x.png" alt=""></p>
+    </div>
+    <div class="text6">A giant step </div>
+    <div class="text6">for iPhone.</div>
+    <div class="text7">iOS 11 makes iPhone so smart, it learns </div>
+    <div class="text7">from you. So capable, it helps you in more </div>
+    <div class="text7">personal ways. And so useful, it’s more </div>
+    <div class="text7">powerful than ever.</div>
+  </div>
+</div>
+<div class="container">
+  <div class="box10">
+    <div class="text8">iPhone Upgrade </div>
+    <div class="text9">Program</div>
+    <div class="text10">The easiest way to upgrade to the latest iPhone.*</div>
+    <div class="text10">Already part of the program?</div>
+  </div>
+  <div class="box11">
+    <div class="text11">Turn the </div>
+    <div class="text12">smartphone </div>
+    <div class="text12">you have into </div>
+    <div class="text12" >the iPhone </div>
+    <div class="text12">you want.</div>
+    <div class="text13">Get up to $315 toward a new iPhone.†</div>
+    <div class="text14">Just trade in your eligible smartphone </div>
+    <div class="text14">with Apple GiveBack. It’s good for </div>
+    <div class="text14">you and the planet. </div>
+  </div>
+</div>
+<div class="container">
+  <div class="box12">
+    <div class="text">Free next-day delivery</div>
+    <div class="text1">On any in-stock iPhone ordered by 5:00 p.m.</div>
+    <div class="text2">Why Switch</div>
+    <div class="text3">Life is easier </div>
+    <div class="text4">on iPhone. </div>
+  </div>
+</div>
+<div class="container">
+  <div class="box13">
+    <div class="text">Pick up at the Apple Store today</div>
+    <div class="text1">Buy online, pick up available items in an hour.</div>
+    <div class="text2">Guided Tour</div>
+    <div class="text3">Take a tour </div>
+    <div class="text4">of iPhone X.</div>
+  </div>
+</div>
+<div class="container">
+  <div class="box14">
+    <div class="text">AirPods</div>
+    <div class="text15">Wireless. </div>
+    <div class="text16">Effortless. Magical.</div>
+  </div>
+</div>
+<div class="container">
+  <div class="box15">
+    <div class="text">Accessories</div>
+    <div class="text2">Explore iPhone </div>
+    <div class="text4">accessories.</div>
+  </div>
+</div>
+<div class="container">
+  <div class="box16">
+    <div class="text">Selfies on iPhone X</div>
+  </div>
+</div>
+<div class="container">
+  <div class="box17">
+    <div class="text">How to shoot</div>
+    <div class="text2">on iPhone.</div>
+  </div>
+</div>
+<div class="container">
+  <div class="box18">
+    <div class="text">Cashless made </div>
+    <div class="text2">effortless.</div>
+    <div class="text4">Apple Pay lets you make secure purchases in stores, </div>
+    <div class="text6">in apps, and on the web. And soon you’ll be able to </div>
+    <div class="text17">send and receive money from friends and family right </div>
+    <div class="text12">in Messages.</div>
+  </div>
+</div>
+<div class="container">
+  <div class="box19">
+    <div class="text">The best place for </div>
+    <div class="text2">all your photos, </div>
+    <div class="text4">files, and more.</div>
+    <div class="text6">iCloud is built into every Apple device and keeps your </div>
+    <div class="text12">stuff safe, up to date, and available wherever you are.</div>
+  </div>
+</div>
+<div class="container">
+  <div class="box20">
+    <div class="text">iPhone for Business</div>
+  </div>
+</div>
+<div class="box21">
+  <div class="desc">* The iPhone Upgrade Program is available to qualified customers and requires service with AT&T, Sprint, T-Mobile, or Verizon. A two-year installment loan and iPhone activation are required. </div>
+  <div class="desc1">Terms apply.</div>
+  <div class="desc">† Trade-in values may vary based on the condition and model of your smartphone trade-in. Must be at least 18. Offer may not be available in all stores and not all devices are eligible for credit. </div>
+  <div class="desc">Apple reserves the right to refuse or limit the quantity of any device for any reason. Value of your current device may be applied toward purchase of a new Apple device. Additional terms at </div>
+  <div class="box22">
+    <div class="box23"></div>
+    <div class="box23">
+      <div class="desc"> <strong>Shop and Learn</strong></div>
+      <div class="desc2">Mac</div>
+      <div class="desc2">iPad</div>
+      <div class="desc2">iPhone</div>
+      <div class="desc2">Watch</div>
+      <div class="desc2">TV</div>
+      <div class="desc2">Music</div>
+      <div class="desc2">iTunes </div>
+      <div class="desc2">HomePod</div>
+      <div class="desc2">iPod touch</div>
+      <div class="desc2">Accessories</div>
+      <div class="desc2">Gift Cards </div>
+    </div>
+    <div class="box23">
+      <div class="desc"><strong>Apple Store</strong></div>
+      <div class="desc2">Mac</div>
+      <div class="desc2">Find a Store</div>
+      <div class="desc2">Genius Bar</div>
+      <div class="desc2">Today at Apple</div>
+      <div class="desc2">Apple Camp</div>
+      <div class="desc2">Field Trip</div>
+      <div class="desc2">Apple Store App </div>
+      <div class="desc2">HomePod</div>
+      <div class="desc2">Refurbished and Clearance</div>
+      <div class="desc2">Order Status</div>
+      <div class="desc2">Shopping Help </div>
+    </div>
+    <div class="box23">
+      <div class="desc"><strong>For Education</strong></div>
+      <div class="desc2">Apple and Education </div>
+      <div class="desc2">Shop for College</div>
+      <div class="desc2">For Business</div>
+      <div class="desc2">Apple and Business</div>
+      <div class="desc2">Shop for Business</div>
+    </div>
+    <div class="box23">
+      <div class="desc"><strong>Account</strong></div>
+      <div class="desc2">Manage Your Apple ID</div>
+      <div class="desc2">Apple Store Account</div>
+      <div class="desc2">Apple Values </div>
+      <div class="desc2">iCloud.com</div>
+      <div class="desc2">Accessibility</div>
+      <div class="desc2">Education</div>
+      <div class="desc2">Environment </div>
+      <div class="desc2">Inclusion and Diversity</div>
+      <div class="desc2">Privacy</div>
+      <div class="desc2">Supplier Responsibility</div>
+    </div>
+    <div class="box23">
+      <div class="desc"><strong>About Apple</strong></div>
+      <div class="desc2">Newsroom</div>
+      <div class="desc2">Apple Leadership </div>
+      <div class="desc2">Job Opportunities</div>
+      <div class="desc2">Investors</div>
+      <div class="desc2">Events</div>
+      <div class="desc2">Contact Apple </div>
+    </div>
+    <div class="box23"></div>
+  </div>
+</div>
+<div class="box24"> </div>
+</body>
+</html>
